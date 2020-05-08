@@ -1,9 +1,20 @@
-Prerequisttes
+# Final Project
+
+Your final project requirements are to turn your existing documentation into a Drupal site by having the pages added to the menus that you designed for your mockup.  You can theme your site through the UI to add a logo by editing the them in the "Appearance" menu.  You can use whatever content you already have and  Lorem Ipsum text to fill in anything more than you already have. 
+
+## To submit
+
+Take screen shots and put them in a word document that walks a user through a demo of the site.  Submit this to canvas.
+
+## Video Tutorial:
+[Drupal Basic Overview](https://youtu.be/kb6KpuLBnAw)
+
+## Prerequisttes
 
 1.  Install git if you haven't
 2.  Install Docker Desktop if you haven't
 
-Commands:
+## Commands:
 
 1.  git clone this repo:
 
@@ -29,13 +40,13 @@ advanced is where you enter in the hostname "postgres" as seen above
 
 10.  You should see the drupal site after you save this and continue
 
-Docker commands from the directory you are in:
+## Docker commands from the directory you are in:
 
 1.  To destory the site AND START ALL OVER type: docker-compose down
 2.  To start the site type docker-compose up
 3.  To stop the site and not destroy it type: docker-compose stop
 
-Notes:
+### Notes:
 
 1.  Click on structure -> block layout  to position content blocks.  You can control where blocks appear on the site by editing them and putting a path for the block invisability settings.  There instructions throughout drupals menu to tell you how to do things like this when you look below the fields in forms.
 
